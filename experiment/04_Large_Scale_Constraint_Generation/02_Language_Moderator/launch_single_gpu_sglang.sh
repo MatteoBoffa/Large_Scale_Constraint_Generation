@@ -17,7 +17,6 @@ export CUDAHOSTCXX="$CXX"
 export NCCL_P2P_DISABLE=1
 # You can override this before calling the script if needed
 export CUDA_VISIBLE_DEVICES=${CUDA_VISIBLE_DEVICES:-0}
-export HF_HOME=/home/mboffa/cache_models/
 
 python -m sglang.launch_server \
   --model-path "$MODEL_PATH" \

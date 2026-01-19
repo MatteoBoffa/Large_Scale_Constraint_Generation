@@ -1,0 +1,10 @@
+backup
+offline_code
+offline_datasets
+experiment_results
+hf_cache
+nltk_cache
+**/sglang_logs
+**/__pycache__
+**/.ipynb_checkpoints
+**/.deepeval

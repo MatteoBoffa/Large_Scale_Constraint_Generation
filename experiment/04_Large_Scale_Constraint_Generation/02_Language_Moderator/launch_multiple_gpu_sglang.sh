@@ -17,8 +17,6 @@ export CUDAHOSTCXX="$CXX"
 # Usually better for multi-GPU unless you have a known P2P/NCCL issue:
 # export NCCL_P2P_DISABLE=1
 
-export HF_HOME=/home/mboffa/cache_models/
-
 # Slurm typically sets CUDA_VISIBLE_DEVICES. Don't override it.
 # Derive TP from what Slurm allocated:
 TP="${SLURM_GPUS_ON_NODE:-1}"
